@@ -2,6 +2,20 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "build Release",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"build",
+				"${workspaceFolder}/MeleeMedia/MeleeMedia.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary",
+				"-c",
+				"Release"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
 			"label": "build",
 			"command": "dotnet",
 			"type": "process",
