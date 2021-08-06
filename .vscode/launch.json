@@ -1,0 +1,41 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Build and Test Loop",
+			"type": "clr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/MeleeMedia/bin/Debug/net461/MeleeMedia.exe",
+			"args": ["${workspaceFolder}/Test files/The Comfy Room - by Dan Salvato.mp3", "out.hps", "-loop", "00:00:05"],
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+		{
+			"name": "Build and Test",
+			"type": "clr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/MeleeMedia/bin/Debug/net461/MeleeMedia.exe",
+			"args": ["${workspaceFolder}/Test files/The Comfy Room - by Dan Salvato.mp3", "out.hps"],
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		},
+		{
+			"name": ".NET Core Launch (console)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/MeleeMedia/bin/Debug/net461/MeleeMedia.exe",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"stopAtEntry": false
+		}
+	]
+}
