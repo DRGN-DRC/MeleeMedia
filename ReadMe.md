@@ -2,7 +2,7 @@
 
 [Download Latest](https://github.com/Ploaj/MeleeMedia/releases) [![Build status](https://ci.appveyor.com/api/projects/status/6tr5rq9adkkj7dv9?svg=true)](https://ci.appveyor.com/project/Ploaj/meleemedia)
 
-MeleeMedia is a command line tool that can convert to and from .mth, .hps, and .thp found in Super Smash Bros Melee.
+MeleeMedia is a command line tool that can convert to and from .mth, .hps, and .thp found in Super Smash Bros Melee. This fork includes project changes to upgrade it to the newer csproj/VS 2017 project format, and allow it to be opened, have its assets installed (via NuGet packages), edited, debugged, and built, all in VS Code.
 
 ## Requirements
 
@@ -41,4 +41,4 @@ Specify Loop "-loop [d.]hh:mm:ss[.fffffff]"
 * **VGAudio**
 * Copyright (c) 2016 Alex Barney
 * MIT License: https://raw.githubusercontent.com/Thealexbarney/VGAudio/master/LICENSE
-* used for encoding audio
+* Used for encoding audio
